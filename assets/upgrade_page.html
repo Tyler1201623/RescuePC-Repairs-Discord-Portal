@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade to FixMate Pro</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #222222;
+            color: white;
+            padding: 30px;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #333333;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #ff9900;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+        .upgrade-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .qr-section {
+            flex: 0 0 45%;
+            text-align: center;
+        }
+        .instructions {
+            flex: 0 0 50%;
+        }
+        .qr-placeholder {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: #444444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            border: 2px solid #ff9900;
+        }
+        .feature-list {
+            background-color: #444444;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .feature {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .feature-icon {
+            margin-right: 15px;
+            font-size: 24px;
+            color: #ff9900;
+        }
+        .offline-note {
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 4px solid #ff9900;
+        }
+        .btn {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 30px auto;
+            width: 200px;
+            text-align: center;
+        }
+        code {
+            background-color: #444444;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Upgrade to FixMate Pro</h1>
+        
+        <div class="upgrade-box">
+            <div class="qr-section">
+                <h2>Scan to Purchase</h2>
+                <div class="qr-placeholder">
+                    QR Code Placeholder<br>
+                    (Will link to purchase page)
+                </div>
+                <p>Or visit: <code>fixmate.example.com/pro</code></p>
+            </div>
+            
+            <div class="instructions">
+                <h2>How to Activate:</h2>
+                <ol>
+                    <li>Purchase a license key using the QR code or link</li>
+                    <li>Copy your license key from the confirmation email</li>
+                    <li>Return to FixMate and click "Enter License"</li>
+                    <li>Paste your key and click Activate</li>
+                    <li>Restart FixMate to access Pro features</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="feature-list">
+            <h2>Pro Features Include:</h2>
+            
+            <div class="feature">
+                <div class="feature-icon">💽</div>
+                <div>
+                    <strong>Password Reset</strong>
+                    <p>Reset Windows account passwords without data loss</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <div>
+                    <strong>Threat Analysis</strong>
+                    <p>Scan for security threats and suspicious processes</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🧰</div>
+                <div>
+                    <strong>Startup Repair</strong>
+                    <p>Fix boot issues and repair Windows startup</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🗑️</div>
+                <div>
+                    <strong>Deep Uninstall</strong>
+                    <p>Completely remove stubborn software and leftovers</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offline-note">
+            <strong>📡 100% Offline Activation</strong>
+            <p>FixMate Pro works entirely offline - no activation servers, no data collection, and no internet dependency. Your license key works forever without "calling home".</p>
+        </div>
+        
+        <button class="btn" onclick="window.history.back()">Return to FixMate</button>
+    </div>
+</body>
+</html> 

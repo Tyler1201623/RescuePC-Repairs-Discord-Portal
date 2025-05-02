@@ -1,0 +1,21 @@
+=============================================
+   FIXMATE IMAGES - README
+=============================================
+
+This directory should contain:
+1. FixMate_Logo.png (main logo)
+2. FixMate_Logo.ico (icon for Windows)
+3. FixMate_Banner.png (header image)
+4. Tool icons (if needed)
+
+Branding guidelines:
+- Primary color: #ff9900 (orange)
+- Background: #222222 (dark gray)
+- Text: #FFFFFF (white)
+- Button bg: #333333 (medium gray)
+- Pro elements: #ff9900 (orange)
+
+The logo and icons should be designed to be recognizable
+even at small sizes and should work well on dark backgrounds.
+
+============================================= 
